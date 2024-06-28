@@ -1,0 +1,75 @@
+* {
+    font-family: Ringbearer Medium;
+    color: rgb(210, 145, 61); 
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin: 10px;
+    display: flex;
+    /* This will distribute the space between the children elements */
+    justify-content: space-between; 
+    /* This will vertically center the children elements */
+    align-items: center; 
+}
+
+.lotr-logo img{
+    border-radius:60px;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 100px;
+    height: 80px;
+}
+
+.info a {
+    text-decoration: none;
+}
+.info h2 {
+    margin-right: 280px; 
+    margin-top: -20px;    
+    color: rgb(210, 145, 61);
+}
+
+.heading {
+    margin-top: 30px;
+    margin-left: 35%;
+    font-size: larger;
+    color: rgb(210, 145, 61);
+}
+/* .heading h1 {
+    font-size: large;
+} */
+
+.text {
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.content {
+    display: flex;
+}
+.content-left {
+    width: 50%;
+    margin: 50px;
+    /* padding: 10px; */
+    letter-spacing: 0.2em;
+    line-height: 2;
+    /* align-items: center;
+    justify-content: center
+    text-align: center;
+    display: block;  */
+}
+
+.content-right img{
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    border-radius: 180px;
+}
+
+.img-text {
+    margin-left: 130px;
+}
