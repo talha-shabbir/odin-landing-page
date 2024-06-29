@@ -1,14 +1,17 @@
 * {
     font-family: Ringbearer Medium;
     color: rgb(210, 145, 61); 
-    background-color: black;
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.intro-container {
+    background-color: black;
+}
 .header {
-    margin: 10px;
+    /* margin: 10px; */
     display: flex;
     /* This will distribute the space between the children elements */
     justify-content: space-between; 
@@ -24,13 +27,18 @@
     height: 80px;
 }
 
+.info {
+    display: flex;
+}
 .info a {
     text-decoration: none;
 }
 .info h2 {
-    margin-right: 280px; 
+    margin-right: 40px; 
     margin-top: -20px;    
     color: rgb(210, 145, 61);
+    justify-content: space-between;
+    align-items: center;
 }
 
 .heading {
