@@ -1,7 +1,5 @@
 * {
     font-family: Ringbearer Medium;
-    color: rgb(210, 145, 61); 
-    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,17 +8,15 @@
 .intro-container {
     background-color: black;
 }
+
 .header {
-    /* margin: 10px; */
     display: flex;
-    /* This will distribute the space between the children elements */
-    justify-content: space-between; 
-    /* This will vertically center the children elements */
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
 }
 
-.lotr-logo img{
-    border-radius:60px;
+.lotr-logo img {
+    border-radius: 60px;
     margin-left: 50px;
     margin-top: 10px;
     width: 100px;
@@ -30,12 +26,14 @@
 .info {
     display: flex;
 }
+
 .info a {
     text-decoration: none;
 }
+
 .info h2 {
-    margin-right: 40px; 
-    margin-top: -20px;    
+    margin-right: 40px;
+    margin-top: -20px;
     color: rgb(210, 145, 61);
     justify-content: space-between;
     align-items: center;
@@ -47,9 +45,6 @@
     font-size: larger;
     color: rgb(210, 145, 61);
 }
-/* .heading h1 {
-    font-size: large;
-} */
 
 .text {
     margin-left: 45px;
@@ -59,19 +54,16 @@
 .content {
     display: flex;
 }
+
 .content-left {
     width: 50%;
     margin: 50px;
-    /* padding: 10px; */
+    color: rgb(210, 145, 61);
     letter-spacing: 0.2em;
     line-height: 2;
-    /* align-items: center;
-    justify-content: center
-    text-align: center;
-    display: block;  */
 }
 
-.content-right img{
+.content-right img {
     margin: 10px;
     width: 500px;
     height: 300px;
@@ -80,4 +72,51 @@
 
 .img-text {
     margin-left: 130px;
+    color: rgb(210, 145, 61);
+}
+
+/* CSS OF "CHARACTERS" SECTION */
+
+.characters-container {
+    background-color: rgb(210, 145, 61);
+    color: black;
+    padding: 20px;
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.characters {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.character {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 50px;
+    transition: 0.3s;
+    /* padding: 10px; */
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.character:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+
+.character img {
+    width: 300px;
+    height: 180px;
+    border-radius: 15px 15px 0px 0px ;
+}
+
+.character .charac-text {
+    margin-top: 3px;
+    margin-bottom: 5px;
+    color: black;
 }
