@@ -61,6 +61,7 @@
     color: rgb(210, 145, 61);
     letter-spacing: 0.2em;
     line-height: 2;
+    text-align: center;
 }
 
 .content-right img {
@@ -96,7 +97,7 @@
     text-align: center;
     margin-top: 30px;
     margin-left: 30px;
-    margin-right: 50px;
+    margin-right: 30px;
     transition: 0.3s;
     /* padding: 10px; */
     border: 5px solid black;
@@ -119,4 +120,27 @@
     margin-top: 3px;
     margin-bottom: 5px;
     color: black;
+}
+
+.quotes-section {
+    background-color: black;
+    color: rgb(210, 145, 61);
+    padding: 50px;
+    text-align: center;
+    /* margin: 120px; */
+}
+
+.quote {
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-right: 200px ;
+    padding-left: 350px;
+    padding-right: 250px;
+    letter-spacing: 0.2em;
+    line-height: 1.8;
+}
+
+.author {
+    text-align: end;
+    margin-right: 380px;
 }
