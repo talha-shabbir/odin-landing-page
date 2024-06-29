@@ -90,7 +90,6 @@
 
 .characters {
     display: flex;
-    /* justify-content: center; */
 }
 
 .character {
@@ -99,7 +98,6 @@
     margin-left: 30px;
     margin-right: 30px;
     transition: 0.3s;
-    /* padding: 10px; */
     border: 5px solid black;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -122,12 +120,13 @@
     color: black;
 }
 
+/* CSS OF "QUOTES" SECTION */
+
 .quotes-section {
     background-color: black;
     color: rgb(210, 145, 61);
     padding: 50px;
     text-align: center;
-    /* margin: 120px; */
 }
 
 .quote {
@@ -143,4 +142,48 @@
 .author {
     text-align: end;
     margin-right: 380px;
+}
+
+/* CSS OF "WATCH" SECTION */
+
+.watch-section {
+    background-color: rgb(210, 145, 61);
+    padding: 60px 250px;
+}
+
+.watch-content {
+    background-color: black;
+    padding: 20px 100px;
+    color: rgb(210, 145, 61);
+    border-radius: 20px;
+    line-height: 1.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.watch-left {
+    flex: 1;
+}
+
+.watch-right {
+    flex: 0 0 auto;
+}
+
+.watch-right .download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(210, 145, 61);
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-left: 20px;
+}
+
+.watch-right .download-button:hover {
+    background-color: black;
+    color: rgb(210, 145, 61);
+    transform: scale(1.1);
 }
