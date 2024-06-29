@@ -1,10 +1,12 @@
 * {
-    font-family: Ringbearer Medium;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: Ringbearer Medium;
+}
 .intro-container {
     background-color: black;
 }
@@ -186,4 +188,12 @@
     background-color: black;
     color: rgb(210, 145, 61);
     transform: scale(1.1);
+}
+
+.copyright {
+    font-family: jost;
+    background-color: black;
+    text-align: center;
+    color: rgb(210, 145, 61);
+    padding: 30px;
 }
