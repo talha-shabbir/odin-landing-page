@@ -5,14 +5,14 @@
 }
 
 @font-face {
-    font-family: 'ringbearermedium';
-    src: url('/fonts/ringm___-webfont.woff2');
+    font-family: 'ring';
+    src: url(/fonts/ringm___-webfont.woff2);
     font-weight: normal;
     font-style: normal;
 
 }
 body {
-    font-family: ringbearermedium;
+    font-family: ring;
 }
 .intro-container {
     background-color: black;
